@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>log4net.AzureStorage</id>
+        <version>1.0.0</version>
+        <title>log4net.AzureStorage</title>
+        <authors>Dane Vinson</authors>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0"&gt;Apache 2.0</licenseUrl>
+        <projectUrl>https://github.com/DaneVinson/log4net.AzureStorage</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Class library to provide log4net logging to Azure storage.</description>
+        <summary>See the project site readme for documentation.</summary>
+        <tags>log4net azure storage</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="log4net" version="2.0.3" />
+                <dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="3.1.0" />
+                <dependency id="WindowsAzure.Storage" version="6.0.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="log4net.AzureStorage\bin\Release\log4net.AzureStorage.dll" target="lib\log4net.AzureStorage.dll" />
+    </files>
+</package>
