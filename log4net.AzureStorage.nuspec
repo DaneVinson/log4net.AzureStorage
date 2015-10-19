@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>log4net.AzureStorage</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <title>log4net.AzureStorage</title>
         <authors>Dane Vinson</authors>
-        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0"&gt;Apache 2.0</licenseUrl>
+        <licenseUrl>https://github.com/DaneVinson/log4net.AzureStorage/blob/master/LICENSE.txt</licenseUrl>
         <projectUrl>https://github.com/DaneVinson/log4net.AzureStorage</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Class library to provide log4net logging to Azure storage.</description>
